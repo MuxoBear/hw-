@@ -67,6 +67,28 @@ public class Main {
 
         // Задание 6
         System.out.println("Задание 6");
+        int one = 15;
+        int two = 25;
+        int three = 99;
+        if (one > two){
+            if (one >= three){
+                System.out.println("Большее число " + one);
+            } else {System.out.println("Большее число " + three);
+            }
+        }else if (two > one) {
+            if (two >=three){
+                System.out.println("Большее число " + two);
+            } else {System.out.println("Большее число " + three);}
+        }else {
+                if (one > three) {
+                    System.out.println("Большее число " + one);
+                }else if (three > one){
+                    System.out.println("Большее число " + three);
+                }else {
+                    System.out.println("Все числа ровны");
+                }
+            }
+
 
 
 
