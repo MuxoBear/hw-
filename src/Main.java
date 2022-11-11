@@ -20,5 +20,22 @@ public class Main {
         if (age > 24){
             System.out.println("Человек ходит на работу");
         }
+        // Задание 3
+        System.out.println("Задание 3");
+        int wagonCapacity = 102;
+        int seatPlace = 60;
+        int otherPlaces = wagonCapacity-seatPlace;
+
+        int seatedPassengers = 7;
+        int otherPassengers = 30;
+        if (seatedPassengers < seatPlace){
+            System.out.println("Есть еще " + (seatPlace-seatedPassengers) + " сидячих мест");
+        }
+        if (otherPassengers<otherPlaces){
+            System.out.println("Есть еще " + (otherPlaces - otherPassengers) + " стоячих мест" );
+        }
+
+
+
     }
 }
